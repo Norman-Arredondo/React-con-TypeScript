@@ -1,7 +1,9 @@
 
 //import { TiposBasicos } from './typescript/TiposBasicos';
 //import {ObjetosLiterales} from './typescript/ObjetosLiterales';
-import { Funciones } from "./typescript/Funciones";
+//import { Funciones } from "./typescript/Funciones";
+import { Contador } from "./components/Contador";
+
 const App = () => {
   return (
     <div className="mt-2">
@@ -10,7 +12,8 @@ const App = () => {
 
       {/*<TiposBasicos /> */}
       {/*<ObjetosLiterales />*/}
-      <Funciones />
+      {/*<Funciones />*/}
+      <Contador />
 
     </div>
   )
